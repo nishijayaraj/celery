@@ -21,4 +21,5 @@ def UploadTask():
     sleep(30)
     UploadTask.update_state(state='PROGRESS', meta={'progress': 30})
     sleep(30)
+    UploadTask.update_state(state='SUCCESS', meta={'progress': 100})
     
